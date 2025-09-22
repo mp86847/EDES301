@@ -1,2 +1,2 @@
 # EDES301
-Home for files from course EDES 301
+Repository for EDES301 course work
