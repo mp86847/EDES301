@@ -39,9 +39,9 @@ This project is a "bop-it" style game with abstractions to trachoetomy care. Pla
 
 3.  **Gameplay:**
     * The display will show "RDY". Press the **Start Button** to begin.
-    * **Green LED:** Remove the magnet from the Hall sensor, then replace it.
-    * **Yellow LED:** Hold your hand over the Distance Sensor for 1.5 seconds.
-    * **White LED:** Press the EMS button.
+    * **Green LED:** Deccanulation! You must replace the trach tube.
+    * **Yellow LED:** Mucous plug! You must suction the trach tube.
+    * **White LED:** Emergency! You must call EMS.
     * Survive as long as possible!
 
 ## Hackster.io Project Page
