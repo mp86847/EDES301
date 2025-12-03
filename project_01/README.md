@@ -14,32 +14,25 @@ This project is a "bop-it" style game with abstractions to trachoetomy care. Pla
     * 2x Piezo Buzzers (Heartbeat & Alarm)
     * 5x LEDs (Status Indicators)
 
-## Software Build Instructions
+## Software Instructions
 1.  **Configure Pins:**
-    Ensure the `configure_pins.sh` script is executable:
     ```bash
     chmod +x configure_pins.sh
     ```
 
 2.  **Install Libraries:**
-    This project uses standard Linux I2C commands and Python libraries.
     ```bash
     sudo apt-get update
     sudo apt-get install python3-smbus i2c-tools
     ```
 
-3.  **Directory Structure:**
-    Ensure all component drivers are located in the `drivers/` subdirectory.
-
 ## Software Operation Instructions
 1.  **Initialize the System:**
-    Run the configuration script to set up GPIO, PWM, and I2C modes:
     ```bash
     sudo ./configure_pins.sh
     ```
 
 2.  **Run the Game:**
-    Start the main game loop using Python 3:
     ```bash
     sudo python3 game.py
     ```
